@@ -29,6 +29,6 @@ import re
 
 ## Example
 ```bash
-python3.8 mac-change -i <name_interface> -m <mac-adrees>
+python3.8 mac-change.py -i <name_interface> -m <mac-adrees>
 ```
 
