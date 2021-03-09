@@ -3,11 +3,12 @@ Programm for change MAC-address
 
 ## Installation
 
-Clone repo https://github.com/kutuzov13/mac_changer.git
+```
+git clone https://github.com/kutuzov13/mac_changer.git
+```
 
-```
 The program is tested on Kali Linux.
-```
+
 
 ## Import
 
