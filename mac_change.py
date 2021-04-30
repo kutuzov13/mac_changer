@@ -1,11 +1,11 @@
-# 1/usr/bin/env python
+#! /usr/bin/env python
 import subprocess
 import optparse
 import re
 
 
 def get_arguments():
-    """example passing arguments -i eth0 -m 00:15:5d:64:e6:7b"""
+    """example passing arguments -i eth0 -m 00:15:5d:64:e6:7b."""
     parser = optparse.OptionParser()
     parser.add_option('-i', '--interface', dest='interface', help='')
     parser.add_option('-m', '--mac', dest='new_mac', help='New MAC address')
